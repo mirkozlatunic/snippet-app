@@ -1,6 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+<h1>Snippet App</h1>
 
-## Getting Started
+<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="html">
+<img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="tailwindCSS">
+<img src ="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="nextjs">
+<img src ="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="vercel">
+<img src ="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white" alt="prisma">
+<img src ="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="typscript">
+
+<img src="./public/walkthrough.gif">
+</div>
+
+## 📋 <a name="table">Table of Contents</a>
+
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🎮 [Get Started](#get-started)
+4. 🛠️ [Improvements Ideas](#improvements)
+
+## <a name="introduction">🤖 Introduction</a>
+
+This multi page app contains functions to add new snippets, edit snippets and delete snippets. In this version of application there is an code editor included with monaco-editor and is running with prisma (ORM). The whole application runs with TypeScript and TailwindCSS under the NextJS.
+
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- HTML
+- Tailwind CSS
+- NextJS
+- TypeScript
+- Prisma
+
+## <a name="get-started">🎮 Get Started</a>
 
 First, run the development server:
 
@@ -20,7 +50,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+### Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -29,8 +59,12 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## <a name="improvements">🛠️ Improvements Ideas</a>
+
+- Fix issue with Prisma on Vercel homepage so it can be deployed
