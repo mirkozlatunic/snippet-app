@@ -20,7 +20,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-This multi page app contains functions to add new snippets, edit snippets and delete snippets. In this version of application there is an code editor included with monaco-editor and is running with prisma (ORM). The whole application runs with TypeScript and TailwindCSS under the NextJS.
+This multi-page app is designed with advanced functions to empower users to add, edit, and delete snippets. It utilizes cutting-edge technologies such as Monaco Editor, Prisma (ORM), TypeScript, and TailwindCSS within the Next.js framework.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
